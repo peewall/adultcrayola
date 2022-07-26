@@ -2,10 +2,14 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				'main': ["'Space Grotesk'", 'sans-serif'],
+				'alt': ['Sniglet', 'cursive'],
+			}
+		}
 	},
 
-	plugins: []
 };
 
 module.exports = config;

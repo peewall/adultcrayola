@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    user-select: none;
+}
+img {
+    pointer-events: none;
+    user-select: none;
+}
+a {
+    transition: all ease-in-out 250ms;
+    transform: skewX(0deg);
+}
+a:hover {
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+    transform: skewX(12deg);
+}
