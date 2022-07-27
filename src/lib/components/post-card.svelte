@@ -11,9 +11,9 @@
 <div class="container font-main">
     <a href={`/posts/${slug}`}>
       <div>
-        <p class="font-bold text-center">{title}</p>
+        <p class="font-bold text-center uppercase">{title}</p>
         <p>
-          {@html marked(content)}
+          {@html marked(content.slice(0, 200))}...
         </p>
       </div>
     </a>

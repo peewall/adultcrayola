@@ -20,8 +20,8 @@
     export let post
   </script>
   
-  <h1 class="text-4xl font-semibold mb-5">{post.title}</h1>
+  <p class="text-4xl mb-5 pt-24 font-main">{post.title}</p>
     
-  <article class="prose prose-xl">
-    {marked(post.content)}
-  </article>
+  <p class="font-main">
+    {@html marked(post.content)}
+  </p>

@@ -51,18 +51,18 @@
     }, 550)
     timer()
 </script>
-<div class="flex flex-col min-w-screen min-h-[80vh] items-center justify-center container">
+<div class="flex flex-col min-w-screen min-h-[80vh] items-center justify-center container min-w-full">
     <div class="grow flex flex-col items-center justify-center">
         <p class="font-alt text-6xl text-rose-600 text-center">i'm <span class="{colorArray[colorP]} underline underline-offset-8">p</span><span class="{colorArray[colorE]} underline underline-offset-8">e</span><span class="underline underline-offset-8 {colorArray[colorT]}">t</span><span class="underline underline-offset-8 {colorArray[colorE2]}">e</span></p>
         <div class="mt-8 flex flex-col gap-8">
             <a href='/projects'>
-                <p class="font-main text-2xl text-rose-600 text-center uppercase tracking-wide">projects</p>
+                <p class="font-main text-2xl text-center uppercase tracking-wide">projects</p>
             </a>
             <a href='/posts'>
-                <p class="font-main text-2xl text-violet-600 text-center uppercase tracking-wide">writing</p>
+                <p class="font-main text-2xl  text-center uppercase tracking-wide">writing</p>
             </a>
             <a href='/contact'>
-                <p class="font-main text-2xl text-green-600 text-center uppercase tracking-wide">say hi!</p>
+                <p class="font-main text-2xl text-center uppercase tracking-wide">say hi!</p>
             </a>
         </div>  
 

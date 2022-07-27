@@ -27,9 +27,9 @@
 </main>
 <footer class="fixed bottom-0 p-4 border-t-2 border-rose-500 bg-amber-50 border-dashed min-w-full flex items-center gap-4 justify-center text-center">
 	<a href='https://open.spotify.com/user/pdub004?si=569bd80180134690' target="_blank">
-		<p class="font-main uppercase text-blue-500 tracking-wide">what I'm listening to</p>
+		<p class="font-main uppercase tracking-wide">what I'm listening to</p>
 	</a>
 	<a href="/contact">
-		<p class="font-main uppercase text-green-500 tracking-wide">get in touch</p> 
+		<p class="font-main uppercase tracking-wide">get in touch</p> 
 	</a>
 </footer>
