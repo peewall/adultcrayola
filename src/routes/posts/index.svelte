@@ -23,7 +23,7 @@
         <p class="font-main mx-auto text-3xl px-6 py-4 font-bold bg-indigo-500 text-amber-50">blah, blah, blah.</p>
       </div>
       <div >
-    <div class="flex flex-col mt-24 bg-[url('paper.jpeg')] px-8 py-4 rounded-md border-black border-4 overflow-scroll max-h-[60vh] divide-black divide-dashed divide-y-2">
+    <div class="flex flex-col mt-24 bg-[url('$lib/assets/paper.jpeg')] px-8 py-4 rounded-md border-black border-4 overflow-scroll max-h-[60vh] divide-black divide-dashed divide-y-2">
         {#each posts as { title, slug, content }}
             <PostCard {title} {content} {slug} />
         {/each}

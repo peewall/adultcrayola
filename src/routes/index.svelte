@@ -1,38 +1,4 @@
-<!-- <script context="module">
-    import ProjectCard from '$lib/components/project-card.svelte'
-    import { client } from '$lib/graphql-client'
-    import { projectsQuery } from '$lib/graphql-queries'
-    
-    export const load = async () => {
-        
-        const { projects } = await client.request(projectsQuery)
-        return {
-        props: {
-            projects,
-        },
-        }
-    }
-   
-</script>
-<script>
-  export let projects
-</script>
 
-<h1>Recent Projects by Me</h1>
-
-<div>
-  {#each projects as { name, slug, description, image }}
-    <ProjectCard  
-        name={name}
-        description={description}
-        url={image[0].url}
-        slug={slug} />
-  {/each}
-</div> -->
-<script context="module">
-    import gsap from 'gsap';
-    import { onMount } from 'svelte';
-</script>
 <script>
 
     const colorArray = ['text-rose-500', 'text-orange-500', 'text-yellow-500', 'text-green-500', 'text-blue-500', 'text-indigo-500', 'text-violet-500']
@@ -54,7 +20,7 @@
 <div class="flex flex-col min-w-screen min-h-[80vh] items-center justify-center container min-w-full">
     <div class="grow flex flex-col items-center justify-center">
         <p class="font-alt text-6xl text-rose-600 text-center">i'm <span class="{colorArray[colorP]} underline underline-offset-8">p</span><span class="{colorArray[colorE]} underline underline-offset-8">e</span><span class="underline underline-offset-8 {colorArray[colorT]}">t</span><span class="underline underline-offset-8 {colorArray[colorE2]}">e</span></p>
-        <div class="absolute lg:top-10 lg:right-10 bottom-20 right-2 lg:px-12 lg:py-6 px-4 py-6 border-black border-4 rounded-md hover:rounded-[50%] ease-in-out transition-all bg-[url('paper.jpeg')] bg-cover bg-indigo-500 bg-blend-screen bg-opacity-75 lg:max-w-[300px] max-h-fit">
+        <div class="absolute lg:top-10 lg:right-10 bottom-20 right-2 lg:px-12 lg:py-6 px-4 py-6 border-black border-4 rounded-md hover:rounded-[50%] ease-in-out transition-all bg-[url('$lib/assets/paper.jpeg')] bg-cover bg-indigo-500 bg-blend-screen bg-opacity-75 lg:max-w-[300px] max-h-fit">
            <p class="font-main text-xs lg:text-base">i'm a designer & engineer. <br/> i build on stuff on the web. <br/>
             like my stuff? <br/><a href="mailto:peter@latebloomer.studio" target="_blank" class="font-bold">hire me.</a> </p>
         </div>  
