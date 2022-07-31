@@ -8,7 +8,7 @@
     export let slug = ''
 </script>
 
-<div class="container font-main">
+<div class="container font-main py-4">
     <a href={`/posts/${slug}`}>
       <div>
         <p class="font-bold text-center uppercase">{title}</p>

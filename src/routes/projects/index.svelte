@@ -19,9 +19,8 @@
   <svelte:window on:scroll={ _ => window.pageYOffset < 10 ? opaque = true : opaque = false }/>
   <div class="container flex min-w-full overflow-scroll">
     <div class="grow mx-auto pt-12 flex flex-col items-center">
-      <div class="{opaque ? 'opacity-100': 'opacity-10'} fixed text-center transition-opacity ease-in-out duration-666">
-        <p class="font-alt mx-auto text-3xl">ooh pretty colors!</p>
-        <p class="font-main italic">(or: stuff i designed)</p>
+      <div class="{opaque ? 'opacity-100': 'opacity-0'} fixed text-center transition-opacity ease-in-out duration-666">
+        <p class="font-main mx-auto text-3xl uppercase font-bold px-4 py-2 text-amber-50 bg-rose-500">designs + code.</p>
       </div>
       <div class="mt-24 flex flex-col gap-8">
         {#each projects as { name, slug, description, image, sourceCode }}
