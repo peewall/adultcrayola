@@ -22,14 +22,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <main class="container mx-auto px-4 mb-24 grow">
-	<img src="{code}" alt="html tag animation" class= "absolute top-20 left-10 opacity-75 z-0 max-w-[75px]"/>
-	<img src="{code}" alt="html tag animation" class="absolute bottom-20 right-10 z-0 max-w-[75px] opacity-75"/>
-	<img src="{draw}" alt="drawing animation" class="absolute bottom-[20%] left-[10%] z-0 max-w-[50px] opacity-50"/>
-	<img src="{draw}" alt="drawing animation" class="absolute bottom-[40%] left-[65%] z-0 max-w-[50px] opacity-50"/>
-	<img src="{code}" alt="html tag animation" class="absolute bottom-[55%] left-[55%] z-0 max-w-[75px] opacity-10"/>
-	<img src="{code}" alt="html tag animation" class="absolute bottom-[55%] right-[75%] z-0 max-w-[75px] opacity-40 rotate-[40deg]"/>
-	<img src="{draw}" alt="drawing animation" class="absolute top-[5%] right-[2%] z-0 max-w-[50px] opacity-25 rotate-12"/>
-
+	<div class="-z-10">
+		<img src="{code}" alt="html tag animation" class= "absolute top-20 left-10 opacity-75 max-w-[75px]"/>
+		<img src="{code}" alt="html tag animation" class="absolute bottom-20 right-10 max-w-[75px] opacity-75"/>
+		<img src="{draw}" alt="drawing animation" class="absolute bottom-[20%] left-[10%] max-w-[50px] opacity-50"/>
+		<img src="{draw}" alt="drawing animation" class="absolute bottom-[40%] left-[65%] max-w-[50px] opacity-50"/>
+		<img src="{code}" alt="html tag animation" class="absolute bottom-[55%] left-[55%] max-w-[75px] opacity-10"/>
+		<img src="{code}" alt="html tag animation" class="absolute bottom-[55%] right-[75%] max-w-[75px] opacity-40 rotate-[40deg]"/>
+		<img src="{draw}" alt="drawing animation" class="absolute top-[5%] right-[2%] max-w-[50px] opacity-25 rotate-12"/>
+	</div>
 
 
 	<a href="/" class="{opaque ? 'opacity-100': 'opacity-10'} transition-all duration-500 ease-in-out fixed">

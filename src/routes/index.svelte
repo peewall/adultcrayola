@@ -18,7 +18,7 @@
     timer()
 </script>
 <div class="flex flex-col min-w-screen min-h-[80vh] items-center justify-center container min-w-full">
-    <div class="grow flex flex-col items-center mt-24">
+    <div class="grow flex flex-col items-center mt-24 lg:mt-48">
         <p class="font-alt text-7xl text-rose-600 text-center">i'm <span class="{colorArray[colorP]} underline underline-offset-8">p</span><span class="{colorArray[colorE]} underline underline-offset-8">e</span><span class="underline underline-offset-8 {colorArray[colorT]}">t</span><span class="underline underline-offset-8 {colorArray[colorE2]}">e</span></p>
         <div class="absolute lg:top-10 lg:right-10 bottom-20 right-2 lg:px-12 lg:py-6 px-4 py-2 border-black border-2 rounded-md bg-[url('$lib/assets/paper.jpeg')] bg-cover bg-indigo-500 bg-blend-screen bg-opacity-75 lg:max-w-[300px] max-h-fit">
            <p class="font-main text-[.70rem] lg:text-base">i'm a designer & engineer. <br/> i build on stuff on the web. <br/>

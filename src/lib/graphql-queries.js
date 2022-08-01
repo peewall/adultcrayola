@@ -6,6 +6,7 @@ const PROJECT_FRAGMENT = gql`
     slug
     description
     demo
+    tags
     sourceCode
     image {
       url
