@@ -9,4 +9,12 @@
 img {
     pointer-events: none;
     user-select: none;
+    background-color: transparent;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
