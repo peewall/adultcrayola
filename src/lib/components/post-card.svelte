@@ -8,10 +8,10 @@
     export let slug = ''
 </script>
 
-<div class="container font-main py-4">
+<div class="container font-main py-4 text-slate-800">
     <a href={`/posts/${slug}`}>
       <div>
-        <p class="font-bold text-center uppercase">{title}</p>
+        <p class="font-bold text-center uppercase italic">{title}</p>
         <p>
           {@html marked(content.slice(0, 200))}...
         </p>

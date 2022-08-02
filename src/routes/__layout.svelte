@@ -38,7 +38,7 @@
 	</a>
   <slot/>
 </main>
-<footer class="grow fixed bottom-0 p-4 border-t-2 border-rose-500 bg-amber-50 border-dashed min-w-full flex items-center gap-4 justify-center text-center z-20">
+<footer class="grow fixed bottom-0 p-4 border-t-2 border-rose-500 bg-[url('$lib/assets/paper.png')] border-dashed min-w-full flex items-center gap-4 justify-center text-center z-20 text-slate-800">
 	<a href='https://open.spotify.com/user/pdub004?si=569bd80180134690' target="_blank">
 		<p class="font-main uppercase tracking-wide">what I'm listening to</p>
 	</a>

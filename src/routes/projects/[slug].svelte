@@ -45,7 +45,7 @@
     </div>
     {/if} 
 
-    <div class="px-4 py-2 border-black border-2 rounded-md bg-[url('$lib/assets/paper.jpeg')] bg-cover bg-indigo-500 bg-blend-screen bg-opacity-75 z-10 max-w-[500px]">
+    <div class="px-4 py-2 border-black border-2 rounded-md bg-[url('$lib/assets/paper.png')] bg-cover bg-indigo-500 bg-blend-screen bg-opacity-75 z-10 max-w-[500px]">
       <h1 class="text-xl font-bold font-main">{project.name}</h1>
 
       <p class="font-main">

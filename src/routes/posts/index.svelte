@@ -17,17 +17,13 @@
   </script>
   <svelte:window on:scroll={ _ => window.pageYOffset < 10 ? opaque = true : opaque = false }/>
 
-  <div class="container flex min-w-full overflow-scroll">
-    <div class="grow flex flex-col items-center mt-12">
-        <div class="{opaque ? 'opacity-100': 'opacity-0'} fixed text-center transition-opacity ease-in-out duration-666">
-        <p class="font-main mx-auto text-3xl px-6 py-4 font-bold bg-indigo-500 text-amber-50">blah, blah, blah.</p>
-      </div>
-      <div >
-    <div class="flex flex-col mt-24 bg-[url('$lib/assets/paper.jpeg')] px-8 py-4 rounded-md border-black border-4 overflow-scroll max-h-[60vh] divide-black divide-dashed divide-y-2">
+  <div class="container flex min-w-full">
+    <div class="grow flex flex-col items-center mt-8">
+        <p class="font-main mx-auto text-3xl px-4 py-2 font-bold bg-indigo-500 text-amber-50">blah, blah, blah.</p>
+    <div class="flex flex-col mt-4 bg-[url('$lib/assets/paper.png')] px-8 py-4 rounded-md border-black border-4 overflow-y-scroll max-h-[70vh] divide-black divide-dashed divide-y-4">
         {#each posts as { title, slug, content }}
             <PostCard {title} {content} {slug} />
         {/each}
-    </div>
     </div>
     
     </div>
